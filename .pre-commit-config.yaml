@@ -40,6 +40,7 @@ repos:
     rev: v2.5.1
     hooks:
       - id: prettier
+        stages: [commit]
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.26.3
     hooks:
